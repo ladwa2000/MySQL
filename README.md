@@ -1,1 +1,1 @@
-This file explains the use of Select Statements in SQL
+Showcasing the basics of select statements in SQL
