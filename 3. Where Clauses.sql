@@ -63,7 +63,7 @@ FROM employee_demographics
 WHERE (first_name = 'Leslie' AND age = 44) OR age > 55 # BODMAS also applies to logical operators, i.e. the conditional statement in the () with the 'AND' operator, 'in this example, also known as an isolated conditional statement', will be fulfilled first, then the conditional statement with the 'OR' operator
 ;
 
-# LIKE Statements - '%' and '_'
+# LIKE Operator - '%' and '_'
 
 SELECT *
 FROM employee_demographics
