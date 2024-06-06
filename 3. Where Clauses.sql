@@ -34,24 +34,24 @@ WHERE gender != 'Female' # '!=', or 'not equal to', is the final comparison oper
 
 # NB 1.1: We use '' when writing characters, also known as 'string' data types, but we do not need to for numbers, also known as 'numeric' data types. 
 
-# Logical Operators - 'AND', 'OR', 'OR NOT'
+# Logical Operators - 'AND', 'OR', and 'NOT'
 
 SELECT *
 FROM employee_demographics
 WHERE birth_date > '1985-01-01' 
-AND gender = 'Male' # 'AND' logical operator is so both conditions in the WHERE clause are satisfied, i.e. records where birthdates greater than 1985-01-01 AND of a male gender will be selected
+AND gender = 'Male' # 'AND' logical operator is so both conditions in the WHERE clause are satisfied, i.e. records where birthdates greater than 1985-01-01 and of a male gender will be selected
 ;
 
 SELECT *
 FROM employee_demographics
 WHERE birth_date > '1985-01-01' 
-OR gender = 'Male' # 'OR' logical operator is so either one of the WHERE clause has to be satisified for the records to be selected, i.e. if record is of Male gender, but is less than the 1985-01-01 birthdate, then that record will still be selected
+OR gender = 'Male' # 'OR' logical operator is so either one of the conditions of the WHERE clause has to be satisified for the records to be selected, i.e. if record is of Male gender, but is less than the 1985-01-01 birthdate, then that record will still be selected
 ;
 
 SELECT *
 FROM employee_demographics
 WHERE birth_date > '1985-01-01' 
-OR NOT gender = 'Male' # 'OR NOT' logical operator works similarly to the 'OR' operator, but it explicitly checks the inverse of one condition when the other condition is not satisfied, i.e. if the birthdate is less than '1985-01-01', but the record is a female, i.e. not a male, then that record will still be selected
+OR NOT gender = 'Male' # 'NOT' logical operator works similarly to the 'OR' operator, but it explicitly checks the inverse of one condition when the other condition is not satisfied, i.e. if the birthdate is less than '1985-01-01', but the record is a female, i.e. not a male, then that record will still be selected
 ;
 
 # NB 2.0: Essentially, Logical operators are conditions set within a query to filter records based on certain criteria
@@ -77,7 +77,7 @@ WHERE first_name LIKE '%a%' # Using the '%' before and after the specified patte
 
 SELECT *
 FROM employee_demographics
-WHERE first_name LIKE 'a__' # '_' is a special character that selects any record in a field that begins witb a specified pattern, but only contains the amount of '_' after, i.e. any record with 2 characters after the letter 'a', so 2 '_', will be selected 
+WHERE first_name LIKE 'a__' # '_' is a special character that selects any record in a field that begins with a specified pattern, but only contains the amount of '_' after, i.e. any record with 2 characters after the letter 'a', so 2 '_', will be selected 
 ;
 
 SELECT *
@@ -95,6 +95,6 @@ FROM employee_demographics
 WHERE birth_date LIKE '1987______'
 ;
 
-# NB 3.0: Can also use speical characters for other data types, like Dates
+# NB 3.0: Can also use special characters for numerical characters, i.e. '1987'
 
-# NB 3.1: Essentially, the 'LIKE' operator is used in a WHERE clauses to search for a specified pattern in a field.
+# NB 3.1: Essentially, the 'LIKE' operator is used in WHERE clauses to search for a specified pattern in a field.
