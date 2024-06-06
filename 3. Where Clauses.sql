@@ -2,7 +2,7 @@
 
 SELECT *
 FROM employee_salary
-WHERE first_name = 'Leslie' # '=', or 'equals to', is also known as a 'comparison operator' 'WHERE' clause filters by rows, or 'records', whereas 'SELECT' statements filters by columns, or 'fields'
+WHERE first_name = 'Leslie' # '=', or 'equals to', is also known as a 'comparison operator'
 ;
 
 # NB 1.0: 'WHERE' clause filters by rows, or 'records', whereas 'SELECT' statements filters by columns, or 'fields'
@@ -97,4 +97,4 @@ WHERE birth_date LIKE '1987______'
 
 # NB 3.0: Can also use speical characters for other data types, like Dates
 
-# NB 3.1: Essentially, the 'LIKE' operator is used in a WHERE clause to search for a specified pattern in a field.
+# NB 3.1: Essentially, the 'LIKE' operator is used in a WHERE clauses to search for a specified pattern in a field.
