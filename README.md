@@ -7,6 +7,9 @@ This repository serves as a detailed log of my journey in learning MySQL, focusi
 ### Beginner ### 
 
 1. Alex the Analyst's Data Analyst Bootcamp provides a sample database which will be referenced in my queries and code examples.
-2. Showcasing understanding of SELECT statements.
+
+2. Covering the fundamentals of SQL SELECT statements, demonstrating how to retrieve data from databases effectively.
+
 3. Showcasing understanding of WHERE clauses, including comparison operators, logical operators and the Like operator.
+
 4. Showcasing understanding of GROUP BY statements, including aggregate functions, and ORDER BY statements, including ascending and descending directives and overall best practices.
