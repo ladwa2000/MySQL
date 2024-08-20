@@ -12,4 +12,4 @@ This repository serves as a detailed log of my journey in learning MySQL, focusi
 
 3. Delving into the use of WHERE clauses in SQL, demonstrating how to filter data based on specific conditions. It includes practical examples that utilise comparison operators, logical operators, and the LIKE operator to refine query results.
 
-4. Exploring the use of GROUP BY statements in SQL, focusing on how to group data and apply aggregate functions such as COUNT, AVG, and others. Additionally, it covers the use of ORDER BY statements to sort data in ascending or descending order.
+4. Exploring the use of GROUP BY statements in SQL, focusing on how to group data and apply aggregate functions such as COUNT, AVG, and others. Additionally, it covers the use of ORDER BY statements to sort data in ascending or descending order, along with best practices for efficient data organisation and analysis.
