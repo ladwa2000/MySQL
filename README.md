@@ -8,7 +8,7 @@ This repository serves as a detailed log of my journey in learning MySQL, focusi
 
 1. Alex the Analyst's Data Analyst Bootcamp provides a sample database which will be referenced in my queries and code examples.
 
-2. Covering the fundamentals of SQL SELECT statements, demonstrating how to retrieve data from databases effectively.
+2. Delving into the use of WHERE clauses in SQL, demonstrating how to filter data based on specific conditions. It includes practical examples that utilise comparison operators, logical operators, and the LIKE operator to refine query results.
 
 3. Showcasing understanding of WHERE clauses, including comparison operators, logical operators and the Like operator.
 
