@@ -27,7 +27,7 @@ FROM employee_salary
 GROUP BY occupation, salary
 ;
 
-# NB: 1.2: The GROUP BY statement will essentially group unique values, however, as the below demonstrates, if multiple columns are being selected, then if a column, i.e. 'occupation', has rows that are the same, i.e. 'Office Manager', then if their corresponding rows, i.e. 'salary', are different, i.e. '50000' and '60000', then both will be grouped seperately, i.e. 'Office Manager - 50000' and 'Office Manager - 60000'
+# NB: 1.2: The GROUP BY statement will essentially group unique values, however, as the above demonstrates, if multiple columns are being selected, then if a column, i.e. 'occupation', has rows that are the same, i.e. 'Office Manager', then if their corresponding rows, i.e. 'salary', are different, i.e. '50000' and '60000', then both will be grouped seperately, i.e. 'Office Manager - 50000' and 'Office Manager - 60000'
 
 SELECT gender, AVG(age), MAX(age), MIN(age), COUNT(age) # Examples of different aggregate functions - will show the average male and female age, oldest male and female age, youngest male and female age and total male and female ages
 FROM employee_demographics
