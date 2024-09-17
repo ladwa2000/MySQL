@@ -31,4 +31,4 @@ GROUP BY gender
 HAVING avg_age > 40
 ;
 
-# NB 2.1: The 'AS' isn't necessarily need as it is essentially implied in the script, however, it is better to use for better readability, especially within more complex queries; can be taken as a best practice.
+# NB 2.1: The 'AS' isn't necessarily needed as it is essentially implied in the script, however, it is better to use for better readability, especially within more complex queries; can be taken as a best practice.
